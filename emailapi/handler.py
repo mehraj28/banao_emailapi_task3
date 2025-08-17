@@ -45,3 +45,8 @@ def send_email(event, context):
             'statusCode': 500,
             'body': json.dumps({'error': f'Internal Server Error: {str(e)}'})
         }
+    
+def run(event,context):
+    x=10
+    sfgasdf
+    
